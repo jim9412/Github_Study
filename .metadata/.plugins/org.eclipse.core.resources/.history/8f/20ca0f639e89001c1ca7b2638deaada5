@@ -1,0 +1,12 @@
+package study;
+
+public class study1 {
+	
+	public static void main(String[] args) {
+		
+	int year = 0;
+	int age = 50;
+	System.out.println(year +  age);
+
+	}
+}

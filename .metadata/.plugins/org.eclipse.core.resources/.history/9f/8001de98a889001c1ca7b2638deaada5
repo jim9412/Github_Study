@@ -1,0 +1,31 @@
+package study;
+
+import java.util.Scanner;
+
+public class example2 {
+	public static void main(String[] args) {
+		
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("숫자를 기입하시오");
+	int number = sc.nextInt(); 
+	System.out.println(number);
+	
+	//숫자로 바꿔주는 역할을 하는 메서드 : Integer.parseInt()
+	//진수로 바꿔주는 역할을 하는 메서드 : Integer.toBinaryString()
+	sc.close();
+	
+	String str = new String("12345");
+	System.out.println(str);
+	str= null;
+	System.out.println(str);
+	
+	byte b1 = 127;
+	//byte b2 = b1 +2 ; overflow
+	byte b2 = (byte)(b1 + 2); //강재 캐스팅
+	System.out.println(b1);
+	System.out.println(b2);
+	
+	
+	}
+}
