@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="spring.RegisterRequest"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="controller.RegisterController"/>
+    <fullyQualifiedTypeName name="controller.LoginCommand"/>
+    <fullyQualifiedTypeName name="spring.AuthService"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.validation.Validator"/>
+    <fullyQualifiedTypeName name="org.springframework.validation.ValidationUtils"/>
+    <fullyQualifiedTypeName name="org.springframework.validation.Errors"/>
+    <fullyQualifiedTypeName name="spring.AuthInfo"/>
+    <fullyQualifiedTypeName name="controller.ChangePwdController"/>
+    <fullyQualifiedTypeName name="spring.ChangePasswordService"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.InterceptorRegistry"/>
+    <fullyQualifiedTypeName name="interceptor.AuthCheckInterceptor"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="controller.MemberListController"/>
+    <fullyQualifiedTypeName name="controller.MemberDetailController"/>
+    <fullyQualifiedTypeName name="spring.Member"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="spring.MemberNotFoundException"/>
+</qualifiedTypeNameHistroy>

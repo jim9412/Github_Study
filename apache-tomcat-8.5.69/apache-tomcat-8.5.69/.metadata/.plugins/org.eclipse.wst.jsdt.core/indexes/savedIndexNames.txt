@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+C:\Users\emdgu\apache-tomcat-8.5.69\apache-tomcat-8.5.69\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4180975373.index
+221941025.index
+1226823228.index
+2082297031.index
+511564270.index
+1385647603.index
+2493822904.index
+1847012705.index
+2149141581.index
+2281656726.index

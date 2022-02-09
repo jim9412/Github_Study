@@ -1,0 +1,24 @@
+create user c##spring5 identified by spring;
+default tablespace users
+temporary tablespace temp;
+
+grant create session create table, create sequence, create view, connect to c##spring5;
+create table member(
+	ID number generated always as identity primary key,
+	password varchar2(100),
+	name varchar2(100),
+	email varchar2(255) unique ,
+	regdate date default sysdate
+);
+
+
+INSERT INTO member (password,name,email)
+	VALUES('1234','cbk','madvirus@madvirus.net');
+
+ALTER TABLE member modify
+( id generated as identity );
+
+
+create database link tlink connect to c##spring5 identified by spring using 'orcldb';
+
+

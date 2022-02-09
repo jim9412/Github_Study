@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\emdgu\apache-tomcat-8.5.69\apache-tomcat-8.5.69\projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4225918779.index
+\BBS\src\main\java
+C:\Users\emdgu\apache-tomcat-8.5.69\apache-tomcat-8.5.69\projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1073708195.index
+\BB\src\main\java

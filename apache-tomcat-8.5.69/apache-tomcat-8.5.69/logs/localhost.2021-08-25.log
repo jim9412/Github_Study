@@ -1,0 +1,56 @@
+25-Aug-2021 18:46:03.071 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-Aug-2021 18:46:03.071 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-Aug-2021 18:46:03.073 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5dcd97cf')
+25-Aug-2021 19:58:07.925 심각 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로가 [/chap04]인 컨텍스트의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	java.io.IOException: 행 [7]에서 [/autoFlushFalse.jsp]을(를) 처리하는 중 예외 발생
+
+4: <head><title>autoFlush �냽�꽦媛� false �삁�젣</title></head>
+5: <body>
+6: 
+7: <%  for (int i = 0 ; i < 1000 ; i++) {   %>
+8: 1234
+9: <%  }  %>
+10: 
+
+
+Stacktrace:
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:493)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:232)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:167)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:194)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:167)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1651)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.io.IOException: 오류: JSP 버퍼 오버플로우
+		at org.apache.jasper.runtime.JspWriterImpl.bufferOverflow(JspWriterImpl.java:151)
+		at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:330)
+		at java.io.Writer.write(Writer.java:157)
+		at org.apache.jsp.autoFlushFalse_jsp._jspService(autoFlushFalse_jsp.java:117)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		... 25 more
+25-Aug-2021 20:27:35.264 정보 [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log 로그 메시지 기록
+25-Aug-2021 20:28:23.598 정보 [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log jsp: 로그 메시지 기록2
+25-Aug-2021 20:28:26.483 정보 [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log jsp: 로그 메시지 기록2
+25-Aug-2021 20:28:27.097 정보 [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log jsp: 로그 메시지 기록2
+25-Aug-2021 20:29:21.177 정보 [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log jsp: 로그 메시지 기록2

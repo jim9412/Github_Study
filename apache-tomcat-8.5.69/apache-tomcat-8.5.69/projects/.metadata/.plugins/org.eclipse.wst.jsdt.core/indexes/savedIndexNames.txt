@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+C:\Users\emdgu\apache-tomcat-8.5.69\apache-tomcat-8.5.69\projects\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

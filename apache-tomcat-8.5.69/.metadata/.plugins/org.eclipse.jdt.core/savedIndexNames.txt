@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\emdgu\apache-tomcat-8.5.69\.metadata\.plugins\org.eclipse.jdt.core
+3490215734.index
+2720846266.index
+4034115778.index
+1865797976.index

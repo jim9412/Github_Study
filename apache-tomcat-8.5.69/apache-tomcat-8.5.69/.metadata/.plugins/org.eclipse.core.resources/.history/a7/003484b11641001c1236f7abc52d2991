@@ -1,0 +1,12 @@
+package controller;
+
+@RestController
+public class RestMemberController {
+	private MemberDao memberDao;
+	private MemberRegisterService registerService;
+	
+	@GetMapping("/api/members")
+	public List<Member>member(){
+		return memberDao.selectAll();
+	}
+}
