@@ -1,0 +1,22 @@
+package study;
+
+public class CompareEx {
+
+	//ÁßÃ¸Å¬·¡½º (Á¤Àû ¸â¹ö Å¬·¡½º)
+	static class Student {
+		int sno;
+		String name;
+		
+		public Student(int sno, String name) {
+			this.sno = sno;
+			this.name = name;
+		}
+	}
+	
+	public static void main(String[] args) {
+		Student student1 = new Student(1, "È«±æµ¿");
+		
+		
+	}
+
+}

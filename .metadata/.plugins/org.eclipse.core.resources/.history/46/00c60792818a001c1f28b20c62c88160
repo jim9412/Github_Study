@@ -1,0 +1,20 @@
+package study;
+
+import java.util.List;
+import java.util.Vector;
+
+public class AutoBoxingBoxingEx {
+
+	public static void main(String[] args) {
+		// AutoBoxing
+		Integer obj1 = 100;
+		Integer obj2 = 100;
+		
+		List list = new Vector();
+		list.add(obj1);
+		list.add(obj2);
+		list.add(500);
+		System.out.println(list);
+	}
+
+}

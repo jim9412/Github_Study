@@ -1,0 +1,21 @@
+package study;
+
+public class CompareEx {
+
+	//중첩클래스 (정적 멤버 클래스)
+	static class Student {
+		int sno;
+		String name;
+		
+		public Student(int sno, String name) {
+			// TODO Auto-generated constructor stub
+		}
+	}
+	
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}

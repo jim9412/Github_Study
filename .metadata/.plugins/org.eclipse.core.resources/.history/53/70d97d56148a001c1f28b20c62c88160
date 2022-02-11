@@ -1,0 +1,39 @@
+package study;
+
+public class intermediate_example1 {
+	
+	public static void main(String[] args) {
+		
+		Object object1 = new Object();
+		Object object2 = new Object();
+		
+		//Object클래스의 equals()는 메머리번지 비교
+		boolean result1 = object1.equals(object2);
+		boolean result2 = (object1 == object2 );
+		
+		System.out.println(object1);
+		System.out.println(object1);
+		System.out.println(object2);
+		System.out.println(result1);
+		System.out.println(result2);
+		
+		
+	}
+
+}
+
+public class Student{
+	int age;
+	public Student(int age) {
+		this.age =age;
+		
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		Student student = (Student)obj;
+		if(this.age == student.age) {
+			return true;
+		}
+	}
+}

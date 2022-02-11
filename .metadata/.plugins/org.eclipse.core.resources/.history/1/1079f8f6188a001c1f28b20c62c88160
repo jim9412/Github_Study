@@ -1,0 +1,28 @@
+package study;
+
+import java.util.HashSet;
+
+public class intermediate_example2 {
+	
+	public static void main(String[] args) {
+		
+		HashSet hashSet = new HashSet();
+		
+		String str1 = new String("°¡");
+		String str2 = new String("°¡");
+		Person person1 = new Person("È«±æµ¿");
+		Person person2 = new Person("È«±æµ¿");
+		
+		hashSet.add(person1);
+		hashSet.add(person2);
+		System.out.println("ÀúÀåµÈ °´Ã¼ ¼ö :" + hashSet.size());
+		
+		System.out.println(str1.hashCode());
+		System.out.println(str2.hashCode());
+		System.out.println(person1.hashCode());
+		System.out.println(person2.hashCode());
+		
+	}
+
+}
+

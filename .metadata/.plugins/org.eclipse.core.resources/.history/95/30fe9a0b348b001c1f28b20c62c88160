@@ -1,0 +1,22 @@
+package study;
+
+public class CompareEx {
+
+	//중첩클래스 (정적 멤버 클래스)
+	static class Student {
+		int sno;
+		String name;
+		
+		public Student(int sno, String name) {
+			this.sno = sno;
+			this.name = name;
+		}
+	}
+	
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}
