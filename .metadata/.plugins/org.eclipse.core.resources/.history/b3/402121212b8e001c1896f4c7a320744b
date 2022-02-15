@@ -1,0 +1,10 @@
+package study;
+
+public class SingletonEx {
+
+	public static void main(String[] args) {
+		//Singleton singleton1 = new Singleton();
+		Singleton singleton1 = Singleton.getInstance();
+	}
+
+}

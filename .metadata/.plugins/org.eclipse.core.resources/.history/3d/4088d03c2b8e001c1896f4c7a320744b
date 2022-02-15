@@ -1,0 +1,17 @@
+package study;
+
+public class SingletonEx {
+
+	public static void main(String[] args) {
+		//Singleton singleton1 = new Singleton();
+		Singleton singleton1 = Singleton.getInstance();
+		Singleton singleton2 = Singleton.getInstance();
+		
+		if(singleton1.equals(singleton2)) {
+			System.out.println("°°Àº °´Ã¼");
+		}else {
+			System.out.println("´Ù¸¥ °´Ã¼");
+		}
+	}
+
+}
