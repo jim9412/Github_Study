@@ -1,0 +1,11 @@
+package simpleproject;
+
+public class BankApp {
+	
+	private static Account[] accountArray =  new Account[100];
+	
+	public static void main(String[] args) {
+		
+	}
+	
+}

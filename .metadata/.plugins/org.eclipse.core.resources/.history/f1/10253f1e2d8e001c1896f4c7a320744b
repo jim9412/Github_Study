@@ -1,0 +1,53 @@
+package simpleproject;
+
+import java.util.Scanner;
+
+public class BankApp {
+	
+	private static Account[] accountArray =  new Account[100];
+	private static Scanner sc = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		boolean run = true;
+		while(run) {
+			System.out.println("-----------------------------------------------------------------");
+			System.out.println("1.Create Account | 2.Account List | 3.Deposit | 4.Draw | 5.Exit");
+			System.out.println("-----------------------------------------------------------------");
+			System.out.print("Select >");
+			
+			int choice = sc.nextInt();
+			
+			if(choice == 1) {
+				createAccount();
+			}else if(choice == 2) {
+				showAccountList();
+			}else if(choice == 3) {
+				
+			}else if(choice == 4) {
+				
+			}else if(choice == 5) {
+				System.out.println("Shut Donw Account Application");
+				run = false;
+			}else {
+				System.out.println("Input Correct Number");
+			}
+		}
+	}
+	
+	public static void createAccount() {
+		System.out.println("-------------------------");
+		System.out.println("    Create Account");
+		System.out.println("-------------------------");
+		return ;
+		
+		System.out.println("Account Number : ");
+		String ano = sc.next();
+		
+	}
+	
+	public static void showAccountList() {
+		
+		return ;
+	}
+	
+}
