@@ -1,0 +1,13 @@
+package study2;
+
+public class CarEx {
+	public static void main(String[] args) {
+		Car car = null;
+		SportCar sportCar = new SportCar();
+		PoliceCar policeCar = new PoliceCar();
+		
+		sportCar.speedUp();
+		
+		car = sportCar;
+	}
+}

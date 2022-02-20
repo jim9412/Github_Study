@@ -1,0 +1,17 @@
+package study2;
+
+public class CarEx {
+	public static void main(String[] args) {
+		Car car = null;
+		SportCar sportCar = new SportCar();
+		PoliceCar policeCar = new PoliceCar();
+		
+		sportCar.speedUp();
+		
+		car = (Car)sportCar;//업 캐스팅 ( 자손 -> 조상 ), 조작할 수 있는 멤버가 줄어든다
+//		car.speedUP(); Car에 speedUp 메서드가 없기떄문에 에러 
+		sportCar = car;
+		
+		
+	}
+}

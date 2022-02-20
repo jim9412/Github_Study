@@ -1,0 +1,21 @@
+package study2;
+
+public class CarEx {
+	public static void main(String[] args) {
+		Car car = null;
+		SportCar sportCar = new SportCar();
+		SportCar sportCar2 = new SportCar();
+		
+		PoliceCar policeCar = new PoliceCar();
+		
+		sportCar.speedUp();
+		
+		car = (Car)sportCar;//업 캐스팅 ( 자손 -> 조상 ), 조작할 수 있는 멤버가 줄어든다
+//		car.speedUP(); Car에 speedUp 메서드가 없기떄문에 에러 
+//		sportCar2 = car; 다운 캐스팅 ( 조상 -> 자손 ), 조작할 수 있는 멤버가 늘어난다. 하지만 타입 미스매치로 에러
+		sportCar2 = (SportCar)car;
+		
+		
+		
+	}
+}

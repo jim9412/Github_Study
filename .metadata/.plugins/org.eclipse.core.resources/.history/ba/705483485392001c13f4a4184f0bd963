@@ -1,0 +1,13 @@
+package study2;
+
+//자손클래스
+public class PoliceCar extends Car{
+	public PoliceCar(String color, int door) {
+		super(color, door);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void siren() {
+		System.out.println("사이렌을 울립니다.");
+	}
+}
