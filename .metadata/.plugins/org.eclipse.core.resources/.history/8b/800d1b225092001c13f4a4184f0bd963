@@ -1,0 +1,21 @@
+package study2;
+
+public class Striker extends Player{
+	private int pass;
+
+	public Striker(String name, int age, int backNumber, int speed, int pass) {
+		super(name, age, backNumber, speed); //플레이어의 생성자
+		this.pass = pass;
+	}
+	
+	public int getPass() {
+		return this.pass;
+	}
+	
+	@Override
+	public void info() {
+		super.info(); //Player's info
+		System.out.println("패스 횟수 : "+ this.getPass());
+	}
+	
+}

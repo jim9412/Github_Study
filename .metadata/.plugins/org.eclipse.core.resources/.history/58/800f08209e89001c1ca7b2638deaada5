@@ -1,8 +1,0 @@
-package study;
-
-public class study1 {
-	int year = 0;
-	int age = 50;
-	
-	System.out.println(year);
-}

@@ -1,0 +1,18 @@
+package study2;
+
+public class PlayerEx {
+
+	public static void main(String[] args) {
+		//다형성
+		Player player1 = new Player("이동국", 40, 20, 60);
+		player1.info();
+		
+		Player player2 = new Striker("홍길동", 30, 15,50, 30);
+		player2.info();
+		
+		Player player3 = new Midfielder("양슨호", 40, 20, 60, 60);
+		player2.info();
+		
+	}
+
+}

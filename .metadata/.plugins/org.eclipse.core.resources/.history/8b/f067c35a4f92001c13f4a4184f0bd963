@@ -1,0 +1,18 @@
+package study;
+
+public class Player {
+	private String name;
+	private int age;
+	private int backNumber;
+	private int speed;
+	
+	public Player(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.backNumber = backNumber;
+		this.speed = speed;
+		
+		
+	}
+}

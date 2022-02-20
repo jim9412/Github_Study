@@ -1,0 +1,11 @@
+package study2;
+
+public class PlayerEx {
+
+	public static void main(String[] args) {
+
+		Player player1 = new Player("¿Ãµø±π", 40, 20, 60);
+		player.info();
+	}
+
+}
